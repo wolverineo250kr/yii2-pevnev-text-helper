@@ -14,6 +14,7 @@ To cut string to required length call in your Yii2 app following php command wit
 <pre>
 \wolverineo250kr\helpers\text\TextHelper::cut($string, $length, $postfix, $encoding);
 </pre>
+<br/>
 ----------------------------------------------------------------------
 <br/>
 To convert string call in your Yii2 app following php command with following params:<br/>
@@ -25,6 +26,7 @@ To convert string call in your Yii2 app following php command with following par
 <pre>
 \wolverineo250kr\helpers\text\TextHelper::slug($string, $replacement, $lowercase);
 </pre>
+<br/>
 ----------------------------------------------------------------------
 <br/>
 To transliterate string call in your Yii2 app following php command with following params:<br/>
