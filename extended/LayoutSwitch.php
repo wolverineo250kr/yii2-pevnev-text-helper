@@ -25,8 +25,8 @@ class LayoutSwitch extends \yii\helpers\BaseInflector
 
     public static function puntoSwitch($string, $languageFrom, $languageTo)
     {
-        if (preg_match("/^[a-zA-Z,а-яА-Я,\,\.,\[,\],\{,\}]+$/", $string)) {
-            $string = str_replace(self::LANG[$languageFrom], self::LANG[$languageTo], $string);
+        if (preg_match("/^[a-zA-Z,а-яА-Я,\,\.,\[,\],\{,-\}]+$/", $string)) { 
+            $string = str_replace(self::LANG[mb_strtolower($languageFrom)], self::LANG[mb_strtolower($languageTo)], $string);
         }
 
         return $string;
