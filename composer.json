@@ -2,8 +2,8 @@
     "name": "wolverineo250kr/yii2-pevnev-text-helper",
     "description": "Text helper based on Yii2 framework",
     "keywords": ["yii", "module"],
-    "icense": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "stable",    
+    "license": "MIT",
     "authors": [
         {
             "name": "Певнев Константин Геннадьевич",
