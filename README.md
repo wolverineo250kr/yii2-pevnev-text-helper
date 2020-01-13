@@ -4,7 +4,6 @@
 <b>composer require "wolverineo250kr/yii2-pevnev-text-helper":"*"</b>
 <h2>Usage</h2>
 <br/>
-<p>
 To cut string to required length call in your Yii2 app following php command with following params:<br/>
 <b>$string</b> - type <u>sting</u>. Text to cut (required).<br/>
 <b>$length</b> - type <u>integer</u>. Length for a string. (required)<br/>
@@ -13,10 +12,8 @@ To cut string to required length call in your Yii2 app following php command wit
 <pre>
 \wolverineo250kr\helpers\text\TextHelper::cut($string, $length, $postfix, $encoding);
 </pre>
-<br/>
 ----------------------------------------------------------------------
 <br/>
-<p>
 To convert string call in your Yii2 app following php command with following params:<br/>
 <b>$string</b> - type <u>sting</u>. Text to cut (required).<br/>
 <b>$replacement</b> - type <u>sting</u>. Character to replace all spaces. (Default '-')<br/>
@@ -24,14 +21,12 @@ To convert string call in your Yii2 app following php command with following par
 <pre>
 \wolverineo250kr\helpers\text\TextHelper::slug($string, $replacement, $lowercase);
 </pre>
- <br/>
 ----------------------------------------------------------------------
 <br/>
-<p>
 To transliterate string call in your Yii2 app following php command with following params:<br/>
 <b>$string</b> - type <u>sting</u>. Text to cut (required).<br/>
 <b>$languageFrom</b> - type <u>sting</u>. Language in. (Default 'EN')<br/>
-<b>$languageTo</b> - type <u>boolean</u>. Language out. (Default 'RU')<br/><br/> 
+<b>$languageTo</b> - type <u>boolean</u>. Language out. (Default 'RU')<br/> 
 <pre>
 \wolverineo250kr\helpers\text\TextHelper::puntoSwitcher($string, $languageFrom, $languageTo);
 </pre>
