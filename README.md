@@ -15,7 +15,7 @@ To cut string to required length call in your Yii2 app following php command wit
 ----------------------------------------------------------------------
 <br/>
 <p>
-To consert string call in your Yii2 app following php command with following params:<br/>
+To convert string call in your Yii2 app following php command with following params:<br/>
 <b>$string</b> - type <u>sting</u>. Text to cut (required).<br/>
 <b>$replacement</b> - type <u>sting</u>. Character to replace all spaces. (Default '-')<br/>
 <b>$lowercase</b> - type <u>boolean</u>. Whether to return the string in lowercase or not. Defaults to true.<br/> 
@@ -26,7 +26,7 @@ To consert string call in your Yii2 app following php command with following par
 ----------------------------------------------------------------------
 <br/>
 <p>
-To consert string call in your Yii2 app following php command with following params:<br/>
+To transliterate string call in your Yii2 app following php command with following params:<br/>
 <b>$string</b> - type <u>sting</u>. Text to cut (required).<br/>
 <b>$languageFrom</b> - type <u>sting</u>. Language in. (Default 'EN')<br/>
 <b>$languageTo</b> - type <u>boolean</u>. Language out. (Default 'RU')<br/><br/> 
