@@ -1,0 +1,25 @@
+{
+    "name": "wolverineo250kr/yii2-pevnev-text-helper",
+    "description": "Text helper based on Yii2 framework",
+    "keywords": ["yii", "module"],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Певнев Константин Геннадьевич",
+            "email": "wolverineo250kr@yandex.ru"
+        },
+        {
+            "name": "Солдатов Владимир Юрьевич"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wolverineo250kr\\helpers\\text\\": ""
+        }
+    }
+}
