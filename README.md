@@ -41,6 +41,7 @@ en -> ru
 <br/>
 ru -> en
 <br/>
+<br/>
 <pre>
 \wolverineo250kr\helpers\text\TextHelper::puntoSwitcher($string, $languageFrom, $languageTo);
 </pre>
