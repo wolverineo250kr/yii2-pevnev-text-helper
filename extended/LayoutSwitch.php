@@ -2,8 +2,8 @@
 
 namespace wolverineo250kr\helpers\text\extended;
 
-class LayoutSwitch extends \yii\helpers\BaseInflector
-{
+class LayoutSwitch extends \yii\helpers\BaseInflector {
+
     const LANG = [
         'ru' => [
             "Й", "Ц", "У", "К", "Е", "Н", "Г", "Ш", "Щ", "З",
@@ -23,11 +23,8 @@ class LayoutSwitch extends \yii\helpers\BaseInflector
         ]
     ];
 
-    public static function puntoSwitch($string, $languageFrom, $languageTo)
-    {
-        if (preg_match("/^[a-zA-Z,а-яА-Я,\,\.,\[,\],\{,-\}]+$/", $string)) { 
-            $string = str_replace(self::LANG[mb_strtolower($languageFrom)], self::LANG[mb_strtolower($languageTo)], $string);
-        }
+    public static function puntoSwitch($string, $languageFrom, $languageTo): string {
+        $string = str_replace(self::LANG[mb_strtolower($languageFrom)], self::LANG[mb_strtolower($languageTo)], $string);
 
         return $string;
     }
