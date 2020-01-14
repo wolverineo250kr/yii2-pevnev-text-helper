@@ -35,7 +35,7 @@ To transliterate string call in your Yii2 app following php command with followi
 <b>$languageFrom</b> - type <u>sting</u>. Language in. (Default 'EN')<br/>
 <b>$languageTo</b> - type <u>boolean</u>. Language out. (Default 'RU')<br/> 
 <br/>
-Language directions aveliable:
+Language directions available:
 <br/>
 en -> ru
 <br/>
