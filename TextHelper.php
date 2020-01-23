@@ -15,7 +15,7 @@ class TextHelper
      * @return string
      * @throws nothing
      */
-    public static function cut(string $string, int $length, string $postfix = '', string  $encoding = 'UTF-8'): string
+    public static function cut(string $string, int $length, $postfix = '', $encoding = 'UTF-8'): string
     {
         $string = strip_tags($string);
         if (mb_strlen($string, $encoding) <= $length) {
@@ -43,7 +43,7 @@ class TextHelper
 		* @param boolean $lowercase whether to return the string in lowercase or not. Defaults to true.
 		*
 	*/
-    public static function slug(string $string, string $replacement = '-', boolean $lowercase = true): string
+    public static function slug(string $string, $replacement = '-', $lowercase = true): string
     {
         return \wolverineo250kr\helpers\text\extended\Inflector::slug($string, $replacement, $lowercase);
     }
@@ -58,7 +58,7 @@ class TextHelper
      * @return string
      * @throws nothing
      */	
-    public static function puntoSwitcher($string, $languageFrom = 'EN', $languageTo = 'RU'): string
+    public static function puntoSwitcher(string $string, $languageFrom = 'EN', $languageTo = 'RU'): string
     {
         return \wolverineo250kr\helpers\text\extended\LayoutSwitch::puntoSwitch($string, mb_strtoupper($languageFrom), mb_strtoupper($languageTo));
     }
